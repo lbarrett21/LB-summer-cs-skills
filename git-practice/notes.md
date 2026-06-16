@@ -24,3 +24,9 @@ Branches are useful because they let me test ideas, fix problems, or add feature
 A pull request is a way to propose changes from one branch into another branch.
 
 Pull requests are useful because they let people review changes before they become part of the main project.
+
+## Local Git
+
+Local Git means using Git on my own computer instead of only using the GitHub website.
+
+The basic local workflow is edit, save, check status, add, commit, and push.
