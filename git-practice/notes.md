@@ -30,3 +30,9 @@ Pull requests are useful because they let people review changes before they beco
 Local Git means using Git on my own computer instead of only using the GitHub website.
 
 The basic local workflow is edit, save, check status, add, commit, and push.
+
+## Local Branches
+
+A local branch is a separate workspace on my computer.
+
+I can create a branch locally, make changes, commit them, and then push the branch to GitHub.
