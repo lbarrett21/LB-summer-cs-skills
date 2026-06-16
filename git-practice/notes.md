@@ -12,4 +12,10 @@
 - Commit: a saved version of the project
 - Branch: a separate line of work
 - Pull request: a way to propose and review changes before merging
+
+## Branches
+
+A branch is a separate version of a repository where I can make changes without directly changing the main branch.
+
+Branches are useful because they let me test ideas, fix problems, or add features safely.
   
