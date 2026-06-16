@@ -18,4 +18,9 @@
 A branch is a separate version of a repository where I can make changes without directly changing the main branch.
 
 Branches are useful because they let me test ideas, fix problems, or add features safely.
-  
+
+## Pull Requests
+
+A pull request is a way to propose changes from one branch into another branch.
+
+Pull requests are useful because they let people review changes before they become part of the main project.
