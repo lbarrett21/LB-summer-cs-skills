@@ -13,6 +13,12 @@ def divide(a, b):
     if(b == 0):
         return('Error: Cannot Divide By 0')
     return a/b
+
+def exponent(a, b):
+    return a**b
+
+def modulo(a, b):
+    return a % b
     
 quit = False
 
@@ -22,9 +28,9 @@ print('------------------------')
 while quit ==False:
     try:
         num1 = float(input("Enter the first number: "))
-        operation = input("Enter operation (+, -, *, /): ")
+        operation = input("Enter operation (+, -, *, /, **, %): ")
 
-        if operation not in ['+','-', '*','/']:
+        if operation not in ['+','-', '*','/', '**', '%']:
             print("Please enter a valid operation")
             continue
 
@@ -40,6 +46,10 @@ while quit ==False:
             result = multiply(num1, num2)
         elif(operation == '/'):
             result = divide(num1, num2)
+        elif(operation == '**'):
+            result = exponent(num1, num2)
+        elif(operation == '%'):
+            result = modulo(num1, num2)
         
 
         print(result)
